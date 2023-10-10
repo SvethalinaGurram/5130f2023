@@ -1,0 +1,204 @@
+/* styles.css */
+h1 {
+    
+    background-color: black;
+}
+
+body {
+  background-image: url("sunset.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 1440px;
+}
+
+.flip-box {
+  background-color: transparent;
+  position: center;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 900px; 
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+p{
+font-size: 15px;
+font-weight: bold;
+
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-box-back {
+  background-color: thistle;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+
+
+
+.dropbtn {
+  background-color: BLACK;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  left: 50% ;
+  right: auto ;
+  text-align: center ;
+  transform: translate(-690%, 0) ;
+}
+
+.dropdown {
+  position: auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: bottom;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 50% ;
+  right: auto ;
+  text-align: center ;
+  transform: translate(-400%, 0)
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: palevioletred;
+}
+
+
+
+/* Reset default margin and padding for body */
+body {
+  margin: 10;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Style the header */
+h1 {
+  font-size: 24px;
+  color: white;
+  margin: auto;
+}
+
+/* Style the form container */
+#message-form {
+  background-color: lightgray;
+  padding: 35px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Style labels and input fields */
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100;
+  height: 100;
+  padding: 23px;
+  margin-bottom: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Style the "Send" link/button */
+#send-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: skyblue;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the form and button */
+#message-form, #send-button {
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+  #message-form {
+    max-width: 100%;
+    margin: 0 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
