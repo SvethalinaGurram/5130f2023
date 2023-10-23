@@ -6,4 +6,5 @@ This paper presents a comprehensive analysis of public REST web service APIs, hi
 
 References:
 1) Neumann, Andy & Laranjeiro, Nuno & Bernardino, Jorge. (2021). An Analysis of Public REST Web Service APIs. IEEE Transactions on Services Computing. 14. 957-970. 10.1109/TSC.2018.2847344. 
-2) M.  Maleshkova,  C. Pedrinaci,  and J.  Domingue,  “Investigating We b  A PI s  o n   th e  Wo r ld   Wi de   We b, ”   in   2010 Eighth IEEE Euro-pean Conference on Web Services, 2010, pp. 107–114. 
+2) Ma, Shang-Pin & Hsu, Ming-Jen & Chen, Hsiao-Jung & Lin, Chuan-Jie. (2023). RESTful API Analysis, Recommendation, and Client Code Retrieval. Electronics. 12. 1252. 10.3390/electronics12051252. 
+3) F.Haupt, F.Leymann, A.Scherer, and K. Vukojevic-Haupt, “A Framework for the Structural Analysis of REST APIs,” in Soft-ware Architecture (ICSA), 2017  IEEE  International Conference on, 2017, pp. 55–58.
