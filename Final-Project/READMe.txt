@@ -34,6 +34,47 @@ Launch instructions:
 
 
 How to use the software:
+Our websiite is self explanatory. The interface involves design and workflow that are very clear that requires minimal effort on the user's part to comprehend and navigate. It means straightforward instructions, a logical layout and an overall design that guides users through tasks without the need for extensive guidance. 
+1. Register for an account: 
+
+   - Enter name, email, password on sign-up screen
+
+   - Validate email 
+
+2. Search products:
+
+   - Use search bar to find products by name/description
+
+3. View product details: 
+
+   - Click on product to see details like description, reviews, price 
+
+4. Add to cart:
+
+   - On product page, enter quantity and click "Add to Cart" button
+
+5. View cart:
+
+   - Click on cart icon to view products added and total cost
+
+6. Checkout:
+
+   - Click "Checkout" on cart page
+
+   - Enter shipping address and payment method
+
+   - Place order
+
+7. Track order:
+
+   - Click on "My Orders" in account dashboard
+
+   - View order status and tracking information
+
+8. View score:
+
+   - Viewing the credit score
+
 
 
 				
